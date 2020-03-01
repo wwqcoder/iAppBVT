@@ -31,6 +31,7 @@ public class AndroidUITasks {
      * @return
      * @throws UINotFoundException
      */
+    @SuppressWarnings("unchecked")
     private static List<WebElement> findObjectsByXPath(String xpath, AppiumDriver driver) throws UINotFoundException {
         return findObjectsByXPath(xpath, driver, 5);
     }
@@ -44,6 +45,7 @@ public class AndroidUITasks {
      * @return
      * @throws UINotFoundException
      */
+    @SuppressWarnings("unchecked")
     private static List<WebElement> findObjectsByXPath(String xpath, AppiumDriver driver, int waitMax) throws UINotFoundException {
         int size = 0;
         List<WebElement> objs = null;
