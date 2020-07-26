@@ -3,7 +3,6 @@ package com.hogwarts.base;
 import io.appium.java_client.AppiumDriver;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebElement;
-
 import java.util.List;
 
 public class AndroidUITasks {

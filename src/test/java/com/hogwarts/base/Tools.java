@@ -1,7 +1,6 @@
 package com.hogwarts.base;
 
 import org.apache.log4j.Logger;
-
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -9,9 +8,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-/**
- * Created by JiZhi.Qian on 2019/3/11.
- */
 public class Tools {
     private static Logger logger = Logger.getLogger(Tools.class);
 

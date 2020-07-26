@@ -7,9 +7,6 @@ import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.junit.Test;
 
-/**
- * Created by JiZhi.Qian on 2020/3/1.
- */
 public class AppsFlyerBVT extends AndroidUIBase {
     private Logger logger = Logger.getLogger(AppsFlyerBVT.class);
 
