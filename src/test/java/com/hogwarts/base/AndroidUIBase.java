@@ -16,7 +16,7 @@ public abstract class AndroidUIBase {
     private String appiumURL = "http://127.0.0.1:4723/wd/hub"; //appium 服务URL地址
 
     private String platformName = "Android"; //平台名称
-    private String deviceName = "Android Emulator"; //设备名称(可以是假的)
+    private String deviceName = "192.168.56.106:5555"; //设备名称(可以是假的)
     private String appPackage = "com.appsflyer.androidsampleapp";//安卓应用包名
     private String appActivity = ".MainActivity"; //安卓activity类
     private String androidUid = Tools.getAndroidDeviceId(); //安卓设备Uid(不能是假的)
